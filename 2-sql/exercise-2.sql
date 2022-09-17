@@ -117,14 +117,14 @@ WHERE COD_DISC = 'BD' AND NOTA < 5;
 
 -- Query b) Encontre a MAT e calcule a média das notas dos alunos na disciplina de POO em 2015
 	
-SELECT MAT, AVG(nota) AS media
+SELECT MAT, ROUND(AVG(nota), 2) AS media
 FROM Historico
 WHERE COD_DISC = 'POO' AND ANO = 2015
 GROUP BY MAT;
 
 -- Query c) Encontre a MAT e calcule a média das notas dos alunos na disciplina de POO em 2015 e que esta média seja superior a 6.
 
-SELECT Alunos.MAT, AVG(nota) AS media
+SELECT Alunos.MAT, ROUND(AVG(nota), 2) AS media
 FROM Alunos JOIN Historico ON Historico.MAT = Alunos.MAT
 WHERE Historico.COD_DISC = 'POO' AND ANO = 2015
 GROUP BY Alunos.MAT

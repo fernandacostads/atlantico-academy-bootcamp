@@ -18,6 +18,7 @@
 
 ##### A maternity hospital wants to computerize its operations. When a baby is born, some information is stored about it, such as: name, date of birth, weight of birth, height, the mother of this baby and the doctor who delivered the baby. For mothers, the nursery also wants to keep track, storing information such as: name, address, telephone and date of birth. For physicians, it is important to know: CRM, name, cell phone and specialty.
 <br>
+
 ##### 🔷 2.1 Highlight the entities you identify in the text above.
 
 A maternity hospital wants to computerize its operations. When a ==baby== is born, some information is stored about it, such as: name, date of birth, weight of birth, height, the ==mother== of this baby and the ==doctor== who delivered the baby. For mothers, the nursery also wants to keep track, storing information such as: name, address, telephone and date of birth. For doctors, it is important to know: CRM, name, cell phone and specialty.
@@ -46,7 +47,7 @@ A maternity hospital wants to computerize its operations. When a ==baby== is bor
 <hr>
 
 ## 📝 Exercise-3:
-##### 🔷Create an Entity-Relationship diagram.
+##### 🔷 Create an Entity-Relationship diagram.
 
 ###### Your diagram should represent appointment scheduling data at a clinic doctor. Sketch how data relating to patients, doctors and  to queries.
 
@@ -57,7 +58,7 @@ A maternity hospital wants to computerize its operations. When a ==baby== is bor
 <hr>
 
 ## 📝 Exercise-4:
-##### 🔷Create a text description, in which you explain in all the details that you can see in the diagram in the image below.
+##### 🔷 Create a text description, in which you explain in all the details that you can see in the diagram in the image below.
 
 | Movies Diagram 
 | :---:   
@@ -86,6 +87,7 @@ A maternity hospital wants to computerize its operations. When a ==baby== is bor
 | 3. Each part sold by the company is identified by a part number exclusive. Parts also have part name, price and quantity in stock.
 | 4. Each order placed by a customer is received by an employee and have a unique order number. Each order contains quantities specified of one or more parts. Each order has a due date. Receipt, as well as an expected delivery date. the delivery date real is also recorded.
 <br>
+
 ##### 🔷 Create an Entity-Relationship diagram for the database of catalog shopping.
 
 |  BUY_CATALOG Diagram 
@@ -98,7 +100,7 @@ A maternity hospital wants to computerize its operations. When a ==baby== is bor
 [Miro](https://miro.com/pt/) - Documentation is available [here](https://developers.miro.com/).
 <br>
 
-#####💻 Developer by [Fernanda Costa](https://github.com/fernandacostads) and [Ivna Feitosa](https://github.com/IvnaFeitosa).
+##### 💻 Developer by [Fernanda Costa](https://github.com/fernandacostads) and [Ivna Feitosa](https://github.com/IvnaFeitosa).
 
 
 [👉 Click here to access other activities of this project.](https://github.com/fernandacostads/atlantico-academy-bootcamp)
